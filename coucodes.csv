@@ -1,0 +1,193 @@
+Country Name WB;IMF Name;TradingEconomics;ISO Code;Default Database Naming;IMF Code;ISO2 Code;IDA Country;IDA Region;Coups Database;EM Flag;EM / DM Flag;Region (IMF);WB File;OECD High Income
+Afghanistan;Afghanistan;NA;AFG;Afghanistan;512;AF;IDA;South Asia;AFG;EM;EM;APAC;Afghanistan;No
+Albania;Albania;Albania;ALB;Albania;914;AL;NA;NA;ALB;EM;EM;Western Europe;Albania;No
+Algeria;Algeria;NA;DZA;Algeria;612;DZ;NA;NA;ALG;EM;EM;North Africa;Algeria;No
+Angola;Angola;Angola;AGO;Angola;614;AO;NA;NA;ANG;EM;EM;Sub-Saharan Africa;Angola;No
+Argentina;Argentina;Argentina;ARG;Argentina;213;AR;NA;NA;ARG;EM;EM;Latin America;Argentina;No
+Armenia;Armenia;Armenia;ARM;Armenia;911;AM;NA;NA;ARM;EM;EM;Eastern Europe;Armenia;No
+Australia;Australia;Australia;AUS;Australia;193;AU;NA;NA;AUS;NA;DM;APAC;Australia;Yes
+Austria;Austria;Austria;AUT;Austria;122;AT;NA;NA;AUT;NA;DM;Western Europe;Austria;Yes
+Azerbaijan;Azerbaijan;Azerbaijan;AZE;Azerbaijan;912;AZ;NA;NA;AZE;EM;EM;Central Asia;Azerbaijan;No
+Bahamas;The Bahamas;Bahamas;BHS;Bahamas;313;BH;NA;NA;BHS;EM;EM;Latin America;NA;No
+Bahrain;Bahrain;Bahrain;BHR;Bahrain;419;BH;NA;NA;BAH;EM;EM;Middle East;Bahrain;No
+Bangladesh;Bangladesh;Bangladesh;BGD;Bangladesh;513;BD;IDA;South Asia;BNG;EM;EM;APAC;Bangladesh;No
+Barbados;Barbados;Barbados;BRB;Barbados;316;BB;NA;NA;BRB;EM;EM;Latin America;Barbados;No
+Belarus;Belarus;Belarus;BLR;Belarus;913;BY;NA;NA;BLR;EM;EM;Eastern Europe;Belarus;No
+Belgium;Belgium;Belgium;BEL;Belgium;124;BE;NA;NA;BEL;NA;DM;Western Europe;Belgium;Yes
+Belize;Belize;Belize;BLZ;Belize;339;BZ;NA;NA;BLZ;EM;EM;Latin America;Belize;No
+Benin;Benin;Benin;BEN;Benin;638;BJ;IDA;Africa;BEN;EM;EM;Sub-Saharan Africa;Benin;No
+Bermuda;NA;Bermuda;BMU;Bermuda;319;BM;NA;NA;BMU;NA;DM;Latin America;NA;No
+Bhutan;Bhutan;NA;BTN;Bhutan;514;BT;IDA;South Asia;BTN;EM;EM;APAC;Bhutan;No
+Bolivia;Bolivia;Bolivia;BOL;Bolivia;218;BO;NA;NA;BOL;EM;EM;Latin America;Bolivia;No
+Bosnia and Herzegovina;Bosnia and Herzegovina;Bosnia-and-Herzegovina;BIH;Bosnia & Herzegovina;963;BA;NA;NA;BIH;EM;EM;Eastern Europe;Bosnia and Herzegovina;No
+Botswana;Botswana;Botswana;BWA;Botswana;616;BW;NA;NA;BWA;EM;EM;Sub-Saharan Africa;Botswana;No
+Brazil;Brazil;Brazil;BRA;Brazil;223;BR;NA;NA;BRA;EM;EM;Latin America;Brazil;No
+Brunei Darussalam;Brunei Darussalam;NA;BRN;Brunei Darussalam;516;BN;NA;NA;BRN;EM;EM;APAC;Brunei Darussalam;No
+Bulgaria;Bulgaria;Bulgaria;BGR;Bulgaria;918;BG;NA;NA;BUL;EM;EM;Eastern Europe;Bulgaria;No
+Burkina Faso;Burkina Faso;Burkina-Faso;BFA;Burkina Faso;748;BF;IDA;Africa;BFO;EM;EM;Sub-Saharan Africa;Burkina Faso;No
+Burundi;Burundi;NA;BDI;Burundi;618;BI;NA;NA;BUI;EM;EM;Sub-Saharan Africa;Burundi;No
+Cambodia;Cambodia;Cambodia;KHM;Cambodia;522;KH;IDA;East Asia;CAM;EM;EM;Latin America;Cambodia;No
+Cameroon;Cameroon;Cameroon;CMR;Cameroon;622;CM;IDA;Africa;CAO;EM;EM;Sub-Saharan Africa;Cameroon;No
+Canada;Canada;Canada;CAN;Canada;156;CA;NA;NA;CAN;NA;DM;North America;Canada;Yes
+Cabo Verde;Cabo Verde;Cape-Verde;CPV;Cabo Verde;624;CV;IDA;Africa;CAP;EM;EM;Sub-Saharan Africa;NA;No
+Cayman Islands;NA;Cayman Islands;CYM;Cayman Islands;377;CI;NA;NA;CYM;NA;DM;Latin America;NA;No
+Central African Republic;Central African Republic;NA;CAF;Central African Republic;626;CF;IDA;Africa;CEN;EM;EM;Sub-Saharan Africa;Central African Republic;No
+Chad;Chad;NA;TCD;Chad;628;TD;IDA;Africa;CHA;EM;EM;Sub-Saharan Africa;Chad;No
+Chile;Chile;Chile;CHL;Chile;228;CL;NA;NA;CHL;EM;EM;Latin America;Chile;Yes
+China;China;China;CHN;China;924;CN;NA;NA;CHN;EM;EM;APAC;China;No
+Colombia;Colombia;Colombia;COL;Colombia;233;CO;NA;NA;COL;EM;EM;Latin America;Colombia;No
+Comoros;Comoros;NA;COM;Comoros;632;KM;IDA;Africa;COM;EM;EM;Sub-Saharan Africa;NA;No
+Congo, Dem. Rep.;Democratic Republic of the Congo;Congo;COD;Dem. Rep. of Congo (Kinshasa);636;CD;IDA;Africa;COD;EM;EM;Sub-Saharan Africa;Congo, Dem. Rep.;No
+Congo, Rep.;Republic of Congo;Republic-of-the-Congo;COG;Rep. Of Congo (Brazzaville);634;CG;IDA;Africa;CON;EM;EM;Sub-Saharan Africa;Congo, Rep.;No
+Costa Rica;Costa Rica;Costa-Rica;CRI;Costa Rica;238;CR;NA;NA;COS;EM;EM;Latin America;Costa Rica;No
+Cote d'Ivoire;C“te d'Ivoire;Ivory-Coast;CIV;C“te d?Ivoire;662;CI;NA;NA;IVO;EM;EM;Sub-Saharan Africa;Cote d'Ivoire;No
+Croatia;Croatia;Croatia;HRV;Croatia;960;HR;NA;NA;HRV;EM;EM;Eastern Europe;Croatia;No
+Cuba;NA;Cuba;CUB;Cuba;928;CU;NA;NA;CUB;EM;EM;Latin America;NA;No
+Cyprus;Cyprus;Cyprus;CYP;Cyprus;423;CY;NA;NA;CYP;EM;EM;Western Europe;Cyprus;Yes
+Czech Republic;Czech Republic;Czech-Republic;CZE;Czech Republic;935;CZ;NA;NA;CZE;EM;EM;Eastern Europe;Czech Republic;Yes
+Denmark;Denmark;Denmark;DNK;Denmark;128;DK;NA;NA;DNK;NA;DM;Western Europe;Denmark;Yes
+Djibouti;Djibouti;NA;DJI;Djibouti;611;DJ;IDA;Middle East and North Africa;DJI;EM;EM;Sub-Saharan Africa;Djibouti;No
+Dominica;Dominica;NA;DMA;Dominica;321;DM;IDA;Latin America and Caribbean;DMA;EM;EM;Latin America;Dominica;No
+Dominican Republic;Dominican Republic;Dominican-Republic;DOM;Dominican Republic;243;DO;NA;NA;DOM;EM;EM;Latin America;Dominican Republic;No
+Ecuador;Ecuador;Ecuador;ECU;Ecuador;248;EC;NA;NA;ECU;EM;EM;Latin America;Ecuador;No
+Egypt, Arab Rep.;Egypt;Egypt;EGY;Egypt;469;EG;NA;NA;EGY;EM;EM;North Africa;Egypt, Arab Rep.;No
+El Salvador;El Salvador;El-Salvador;SLV;El Salvador;253;SV;NA;NA;SAL;EM;EM;Latin America;El Salvador;No
+Eritrea;Eritrea;NA;ERI;Eritrea;643;ER;IDA;Africa;ERI;EM;EM;Sub-Saharan Africa;NA;No
+Estonia;Estonia;Estonia;EST;Estonia;939;EE;NA;NA;EST;EM;EM;Eastern Europe;Estonia;Yes
+Ethiopia;Ethiopia;Ethiopia;ETH;Ethiopia;644;ET;IDA;Africa;ETH;EM;EM;Sub-Saharan Africa;Ethiopia;No
+Finland;Finland;Finland;FIN;Finland;172;FI;NA;NA;FIN;NA;DM;Western Europe;Finland;Yes
+France;France;France;FRA;France;132;FR;NA;NA;FRN;NA;DM;Western Europe;France;Yes
+Gabon;Gabon;Gabon;GAB;Gabon;646;GA;NA;NA;GAB;EM;EM;Sub-Saharan Africa;Gabon;No
+Gambia, The;The Gambia;NA;GMB;Gambia;648;GM;IDA;Africa;GAM;EM;EM;Sub-Saharan Africa;Gambia, The;No
+Georgia;Georgia;Georgia;GEO;Georgia;915;GE;NA;NA;GRG;EM;EM;Central Asia;Georgia;No
+Germany;Germany;Germany;DEU;Germany;134;DE;NA;NA;DEU;NA;DM;Western Europe;Germany;Yes
+Ghana;Ghana;Ghana;GHA;Ghana;652;GH;IDA;Africa;GHA;EM;EM;Sub-Saharan Africa;Ghana;No
+Greece;Greece;Greece;GRC;Greece;174;GR;NA;NA;GRC;NA;DM;Western Europe;Greece;Yes
+Greenland;NA;NA;GRL;Greenland;326;GL;NA;NA;GRL;NA;DM;Western Europe;NA;No
+Grenada;Grenada;Grenada;GRD;Grenada;328;GD;IDA;Latin America and Caribbean;GRD;EM;EM;Latin America;Grenada;No
+Guatemala;Guatemala;Guatemala;GTM;Guatemala;258;GT;NA;NA;GUA;EM;EM;Latin America;Guatemala;No
+Guinea;Guinea;NA;GIN;Guinea;656;GN;IDA;Africa;GUI;EM;EM;Sub-Saharan Africa;Guinea;No
+Guinea-Bissau;Guinea-Bissau;NA;GNB;Guinea-Bissau;654;GW;IDA;Africa;GNB;EM;EM;Sub-Saharan Africa;NA;No
+Guyana;Guyana;NA;GUY;Guyana;336;GY;IDA;Latin America and Caribbean;GUY;EM;EM;Latin America;NA;No
+Haiti;Haiti;NA;HTI;Haiti;263;HT;IDA;Latin America and Caribbean;HAI;EM;EM;Latin America;Haiti;No
+Honduras;Honduras;Honduras;HND;Honduras;268;HN;IDA;Latin America and Caribbean;HON;EM;EM;Latin America;Honduras;No
+Hong Kong SAR, China;Hong Kong SAR;Hong-Kong;HKG;Hong Kong SAR, China;532;HK;NA;NA;HKG;NA;DM;APAC;Hong Kong SAR, China;No
+Hungary;Hungary;Hungary;HUN;Hungary;944;HU;NA;NA;HUN;EM;EM;Eastern Europe;Hungary;Yes
+Iceland;Iceland;Iceland;ISL;Iceland;176;IS;NA;NA;ISL;EM;EM;Western Europe;Iceland;Yes
+India;India;India;IND;India;534;IN;NA;NA;IND;EM;EM;APAC;India;No
+Indonesia;Indonesia;Indonesia;IDN;Indonesia;536;ID;NA;NA;INS;EM;EM;APAC;Indonesia;No
+Iran, Islamic Rep.;Iran;NA;IRN;Iran;429;IR;NA;NA;IRN;EM;EM;Middle East;Iran, Islamic Rep.;No
+Iraq;Iraq;Iraq;IRQ;Iraq;433;IQ;NA;NA;IRQ;EM;EM;Middle East;Iraq;No
+Ireland;Ireland;Ireland;IRL;Ireland;178;IE;NA;NA;IRL;NA;DM;Western Europe;Ireland;Yes
+Israel;Israel;Israel;ISR;Israel;436;IL;NA;NA;ISR;NA;DM;Middle East;Israel;Yes
+Italy;Italy;Italy;ITA;Italy;136;IT;NA;NA;ITA;NA;DM;Western Europe;Italy;Yes
+Jamaica;Jamaica;Jamaica;JAM;Jamaica;343;JM;NA;NA;JAM;EM;EM;Latin America;Jamaica;No
+Japan;Japan;Japan;JPN;Japan;158;JP;NA;NA;JPN;NA;DM;APAC;Japan;Yes
+Jordan;Jordan;Jordan;JOR;Jordan;439;JO;NA;NA;JOR;EM;EM;Middle East;Jordan;No
+Kazakhstan;Kazakhstan;Kazakhstan;KAZ;Kazakhstan;916;KZ;NA;NA;KZK;EM;EM;Central Asia;Kazakhstan;No
+Kenya;Kenya;Kenya;KEN;Kenya;664;KE;IDA;Africa;KEN;EM;EM;Sub-Saharan Africa;Kenya;No
+Kiribati;Kiribati;NA;KIR;Kiribati;826;KI;IDA;East Asia;KIR;EM;EM;APAC;NA;No
+Korea, Dem. Rep.;NA;NA;PRK;Korea (North);NA;KP;NA;NA;PRK;EM;EM;APAC;NA;No
+Korea, Rep.;Korea;South-Korea;KOR;Korea, Rep.;542;KR;NA;NA;KOR;EM;EM;APAC;Korea, Rep.;Yes
+Kuwait;Kuwait;Kuwait;KWT;Kuwait;443;KW;NA;NA;KWT;EM;EM;Middle East;NA;No
+Kyrgyz Republic;Kyrgyz Republic;Kyrgyzstan;KGZ;Kyrgyzstan;917;KG;IDA;Europe and Central Asia;KYR;EM;EM;Central Asia;Kyrgyz Republic;No
+Lao PDR;Lao P.D.R.;NA;LAO;Laos;544;LA;IDA;East Asia;LAO;EM;EM;APAC;NA;No
+Latvia;Latvia;Latvia;LVA;Latvia;941;LV;NA;NA;LVA;EM;EM;Eastern Europe;Latvia;Yes
+Lebanon;Lebanon;Lebanon;LBN;Lebanon;446;LB;NA;NA;LEB;EM;EM;Middle East;Lebanon;No
+Lesotho;Lesotho;Lesotho;LSO;Lesotho;666;LS;IDA;Africa;LES;EM;EM;Sub-Saharan Africa;Lesotho;No
+Liberia;Liberia;NA;LBR;Liberia;668;LR;IDA;Africa;LBR;EM;EM;Sub-Saharan Africa;Liberia;No
+Libya;Libya;NA;LBY;Libya;672;LY;NA;NA;LIB;EM;EM;Middle East;Libya;No
+Liechtenstein;NA;Liechtenstein;LIE;Liechtenstein;NA;LI;NA;NA;LIE;NA;DM;Western Europe;NA;No
+Lithuania;Lithuania;Lithuania;LTU;Lithuania;946;LT;NA;NA;LTU;EM;EM;Eastern Europe;Lithuania;Yes
+Luxembourg;Luxembourg;Luxembourg;LUX;Luxembourg;137;LU;NA;NA;LUX;NA;DM;Western Europe;Luxembourg;Yes
+Macedonia, FYR;FYR Macedonia;Macedonia;MKD;Macedonia;962;MK;NA;NA;MKD;EM;EM;Eastern Europe;Macedonia, FYR;No
+Madagascar;Madagascar;NA;MDG;Madagascar;674;MG;IDA;Africa;MAG;EM;EM;Sub-Saharan Africa;Madagascar;No
+Malawi;Malawi;NA;MWI;Malawi;676;MW;IDA;Africa;MAW;EM;EM;Sub-Saharan Africa;Malawi;No
+Malaysia;Malaysia;Malaysia;MYS;Malaysia;548;MY;NA;NA;MAL;EM;EM;APAC;Malaysia;No
+Maldives;Maldives;Maldives;MDV;Maldives;556;MV;IDA;South Asia;MDV;EM;EM;APAC;Maldives;No
+Mali;Mali;NA;MLI;Mali;678;ML;NA;NA;MLI;EM;EM;Sub-Saharan Africa;Mali;No
+Malta;Malta;Malta;MLT;Malta;181;MT;NA;NA;MLT;EM;EM;Western Europe;Malta;Yes
+Marshall Islands;Marshall Islands;NA;MHL;Marshall Islands;867;MH;IDA;East Asia;MHL;EM;EM;APAC;NA;No
+Mauritania;Mauritania;NA;MRT;Mauritania;682;MR;IDA;Africa;MAA;EM;EM;Sub-Saharan Africa;Mauritania;No
+Mauritius;Mauritius;Mauritius;MUS;Mauritius;684;MU;NA;NA;MUS;EM;EM;Sub-Saharan Africa;Mauritius;No
+Mexico;Mexico;Mexico;MEX;Mexico;273;MX;NA;NA;MEX;EM;EM;Latin America;Mexico;No
+Micronesia;Micronesia;NA;FSM;Micronesia;868;FM;IDA;East Asia;FSM;EM;EM;APAC;NA;No
+Moldova;Moldova;Moldova;MDA;Moldova;921;MD;IDA;Europe and Central Asia;MLD;EM;EM;Eastern Europe;NA;No
+Mongolia;Mongolia;Mongolia;MNG;Mongolia;948;MN;IDA;East Asia;MNG;EM;EM;APAC;Mongolia;No
+Montenegro;Montenegro;Montenegro;MNE;Montenegro;943;ME;NA;NA;MNT;EM;EM;Eastern Europe;Montenegro;No
+Morocco;Morocco;Morocco;MAR;Morocco;686;MA;NA;NA;MOR;EM;EM;North Africa;Morocco;No
+Mozambique;Mozambique;Mozambique;MOZ;Mozambique;688;MZ;IDA;Africa;MZM;EM;EM;Sub-Saharan Africa;Mozambique;No
+Myanmar;Myanmar;NA;MMR;Myanmar;518;MM;IDA;East Asia;MYA;EM;EM;APAC;Myanmar;No
+Namibia;Namibia;Namibia;NAM;Namibia;728;NA;NA;NA;NAM;EM;EM;Sub-Saharan Africa;Namibia;No
+Nepal;Nepal;NA;NPL;Nepal;558;NP;IDA;South Asia;NEP;EM;EM;APAC;Nepal;No
+Netherlands;Netherlands;Netherlands;NLD;Netherlands;138;NL;NA;NA;NLD;NA;DM;Western Europe;Netherlands;Yes
+New Zealand;New Zealand;New-Zealand;NZL;New Zealand;196;NZ;NA;NA;NZL;NA;DM;APAC;New Zealand;Yes
+Nicaragua;Nicaragua;Nicaragua;NIC;Nicaragua;278;NI;IDA;Latin America and Caribbean;NIC;EM;EM;Latin America;Nicaragua;No
+Niger;Niger;NA;NER;Niger;692;NE;IDA;Africa;NIR;EM;EM;Sub-Saharan Africa;Niger;No
+Nigeria;Nigeria;Nigeria;NGA;Nigeria;694;NG;IDA;Africa;NIG;EM;EM;Sub-Saharan Africa;Nigeria;No
+Norway;Norway;Norway;NOR;Norway;142;NO;NA;NA;NOR;NA;DM;Western Europe;Norway;Yes
+Oman;Oman;Oman;OMN;Oman;449;OM;NA;NA;OMA;EM;EM;Middle East;Oman;No
+Pakistan;Pakistan;Pakistan;PAK;Pakistan;564;PK;IDA;South Asia;PKS;EM;EM;APAC;Pakistan;No
+Panama;Panama;Panama;PAN;Panama;283;PA;NA;NA;PAN;EM;EM;Latin America;Panama;No
+Papua New Guinea;Papua New Guinea;Papua-New-Guinea;PNG;Papua New Guinea;853;PG;IDA;East Asia;PNG;EM;EM;APAC;NA;No
+Paraguay;Paraguay;Paraguay;PRY;Paraguay;288;PY;NA;NA;PAR;EM;EM;Latin America;Paraguay;No
+Peru;Peru;Peru;PER;Peru;293;PE;NA;NA;PER;EM;EM;Latin America;Peru;No
+Philippines;Philippines;Philippines;PHL;Philippines;566;PH;NA;NA;PHI;EM;EM;APAC;Philippines;No
+Poland;Poland;Poland;POL;Poland;964;PL;NA;NA;POL;NA;DM;Eastern Europe;Poland;Yes
+Portugal;Portugal;Portugal;PRT;Portugal;182;PT;NA;NA;POR;NA;DM;Western Europe;Portugal;Yes
+Puerto Rico;NA;Puerto-Rico;PRI;Puerto Rico;NA;PR;NA;NA;PRI;EM;EM;Latin America;NA;No
+Qatar;Qatar;Qatar;QAT;Qatar;453;QA;NA;NA;QAT;EM;EM;Middle East;Qatar;No
+Romania;Romania;Romania;ROU;Romania;968;NA;NA;NA;RUM;EM;EM;Eastern Europe;Romania;No
+Russian Federation;Russia;Russia;RUS;USSR/Russia;922;RU;NA;NA;RUS;EM;EM;Eastern Europe;Russian Federation;No
+Rwanda;Rwanda;Rwanda;RWA;Rwanda;714;RW;IDA;Africa;RWA;EM;EM;Sub-Saharan Africa;Rwanda;No
+Samoa;Samoa;NA;WSM;Samoa;862;WS;IDA;East Asia;WSM;EM;EM;APAC;NA;No
+Sao Tome and Principal;SÆo Tom‚ and Pr¡ncipe;NA;STP;SÆo Tom‚ and Pr¡ncipe;716;ST;IDA;Africa;STP;EM;EM;Latin America;NA;No
+Saudi Arabia;Saudi Arabia;Saudi-Arabia;SAU;Saudi Arabia;456;SA;NA;NA;SAU;EM;EM;Middle East;Saudi Arabia;No
+Senegal;Senegal;Senegal;SEN;Senegal;722;SN;IDA;Africa;SEN;EM;EM;Sub-Saharan Africa;Senegal;No
+Serbia;Serbia;Serbia;SRB;Serbia;942;RS;NA;NA;SRB;EM;EM;Eastern Europe;Serbia;No
+Seychelles;Seychelles;Seychelles;SYC;Seychelles;718;SC;NA;NA;SYC;EM;EM;Latin America;Seychelles;No
+Sierra Leone;Sierra Leone;NA;SLE;Sierra Leone;724;SL;IDA;Africa;SIE;EM;EM;Sub-Saharan Africa;Sierra Leone;No
+Singapore;Singapore;Singapore;SGP;Singapore;576;SG;NA;NA;SGP;NA;DM;APAC;Singapore;No
+Slovak Republic;Slovak Republic;Slovakia;SVK;Slovak Republic;936;SK;NA;NA;SVK;NA;DM;Eastern Europe;Slovakia;Yes
+Slovenia;Slovenia;Slovenia;SVN;Slovenia;961;SI;NA;NA;SVN;NA;DM;Eastern Europe;Slovenia;Yes
+Solomon Islands;Solomon Islands;NA;SLB;Solomon Islands;813;SB;IDA;East Asia;SLB;EM;EM;APAC;NA;No
+Somalia;NA;NA;SOM;Somalia;726;SO;IDA;Africa;SOM;EM;EM;Sub-Saharan Africa;NA;No
+South Africa;South Africa;South-Africa;ZAF;South Africa;199;ZA;NA;NA;SAF;EM;EM;Sub-Saharan Africa;South Africa;No
+South Sudan;South Sudan;NA;SSD;South Sudan;733;SS;IDA;Africa;SSU;EM;EM;Sub-Saharan Africa;NA;No
+Spain;Spain;Spain;ESP;Spain;184;ES;NA;NA;SPN;NA;DM;Western Europe;Spain;Yes
+Sri Lanka;Sri Lanka;Sri-Lanka;LKA;Sri Lanka;524;LK;NA;NA;SRI;EM;EM;APAC;Sri Lanka;No
+St Lucia;St. Lucia;NA;LCA;St. Lucia;362;WL;IDA;Latin America and Caribbean;LCA;EM;EM;APAC;NA;No
+St Vincent;St. Vincent and the Grenadines;St-Vincent-and-the-Grenadines;VCT;St. Vincent and the Grenadines;364;WV;IDA;Latin America and Caribbean;VCT;EM;EM;APAC;NA;No
+Sudan;Sudan;NA;SDN;Sudan;732;SD;IDA;Africa;SUD;EM;EM;Sub-Saharan Africa;NA;No
+Suriname;Suriname;Suriname;SUR;Suriname;366;SR;NA;NA;SUR;EM;EM;Latin America;Suriname;No
+Swaziland;Swaziland;NA;SWZ;Swaziland;734;SZ;NA;NA;SWA;EM;EM;Sub-Saharan Africa;Swaziland;No
+Sweden;Sweden;Sweden;SWE;Sweden;144;SE;NA;NA;SWE;NA;DM;Western Europe;Sweden;Yes
+Switzerland;Switzerland;Switzerland;CHE;Switzerland;146;CH;NA;NA;CHE;NA;DM;Western Europe;Switzerland;Yes
+Syrian Arab Republic;Syria;NA;SYR;Syria;463;SY;IDA;Middle East and North Africa;SYR;EM;EM;Middle East;NA;No
+Taiwan, China;Taiwan Province of China;Taiwan;TWN;Taiwan, China;528;TW;NA;NA;TWN;NA;DM;APAC;NA;No
+Tajikistan;Tajikistan;Tajikistan;TJK;Tajikistan;923;TJ;IDA;Europe and Central Asia;TAJ;EM;EM;Central Asia;NA;No
+Tanzania;Tanzania;NA;TZA;Tanzania;738;TZ;IDA;Africa;TAZ;EM;EM;Sub-Saharan Africa;NA;No
+Thailand;Thailand;Thailand;THA;Thailand;578;TH;NA;NA;THI;EM;EM;APAC;Thailand;No
+Timor-Leste;Timor-Leste;NA;TLS;Timor-Leste;537;TL;NA;NA;TLS;EM;EM;APAC;NA;No
+Togo;Togo;NA;TGO;Togo;742;TG;IDA;Africa;TOG;EM;EM;Sub-Saharan Africa;NA;No
+Tonga;Tonga;NA;TON;Tonga;866;TO;IDA;East Asia;TON;EM;EM;APAC;NA;No
+Trinidad and Tobago;Trinidad and Tobago;Trinidad-and-Tobago;TTO;Trinidad & Tobago;369;TT;NA;NA;TTO;EM;EM;Latin America;Trinidad and Tobago;No
+Tunisia;Tunisia;Tunisia;TUN;Tunisia;744;TN;NA;NA;TUN;EM;EM;North Africa;Tunisia;No
+Turkey;Turkey;Turkey;TUR;Turkey;186;TR;NA;NA;TUR;EM;EM;Middle East;Turkey;No
+Turkmenistan;Turkmenistan;NA;TKM;Turkmenistan;925;TM;NA;NA;TKM;EM;EM;Central Asia;NA;No
+Tuvalu;Tuvalu;NA;TUV;Tuvalu;869;TV;IDA;East Asia;TUV;EM;EM;APAC;NA;No
+Uganda;Uganda;Uganda;UGA;Uganda;746;UG;IDA;Africa;UGA;EM;EM;Sub-Saharan Africa;Uganda;No
+Ukraine;Ukraine;Ukraine;UKR;Ukraine;926;UA;NA;NA;UKR;EM;EM;Eastern Europe;Ukraine;No
+United Arab Emirates;United Arab Emirates;United-Arab-Emirates;ARE;United Arab Emirates;466;AE;NA;NA;UAE;NA;DM;Middle East;United Arab Emirates;No
+United Kingdom;United Kingdom;United-Kingdom;GBR;United Kingdom;112;GB;NA;NA;GBR;NA;DM;Western Europe;United Kingdom;Yes
+United States;United States;United-States;USA;United States;111;US;NA;NA;USA;NA;DM;North America;United States;Yes
+Uruguay;Uruguay;Uruguay;URY;Uruguay;298;UY;NA;NA;URU;EM;EM;Latin America;Uruguay;No
+Uzbekistan;Uzbekistan;Uzbekistan;UZB;Uzbekistan;927;UZ;IDA;Europe and Central Asia;UZB;EM;EM;Central Asia;NA;No
+Vanuatu;Vanuatu;NA;VUT;Vanuatu;846;VU;IDA;East Asia;VUT;EM;EM;APAC;NA;No
+Venezuela, RB;Venezuela;Venezuela;VEN;Venezuela;299;VE;NA;NA;VEN;EM;EM;Latin America;Venezuela, RB;No
+Vietnam;Vietnam;Vietnam;VNM;Vietnam;582;VN;NA;NA;VIE;EM;EM;APAC;Vietnam;No
+Virgin Islands;NA;Virgin Islands;VIR;Virgin Islands;NA;VG;NA;NA;VIR;NA;DM;Latin America;NA;No
+West Bank and Gaza;NA;NA;PSE;West Bank and Gaza;NA;PS;NA;NA;PSE;EM;EM;Middle East;West Bank and Gaza;No
+Yemen, Rep.;Yemen;NA;YEM;Yemen;474;YE;IDA;Middle East and North Africa;YEM;EM;EM;Middle East;Yemen, Rep.;No
+Zambia;Zambia;Zambia;ZMB;Zambia;754;ZM;IDA;Africa;ZAM;EM;EM;Sub-Saharan Africa;Zambia;No
+Zimbabwe;Zimbabwe;NA;ZWE;Zimbabwe;698;ZW;IDA;Africa;ZIM;EM;EM;Sub-Saharan Africa;NA;No
