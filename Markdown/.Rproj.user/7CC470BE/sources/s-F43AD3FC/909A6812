@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1590863390220.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "909A6812",
+    "lastKnownWriteTime" : 2722487929688,
+    "last_content_update" : 1590863390220,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "88CBD021",
+        "caption" : "dummynho",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=dummynho&cache_key=88CBD021",
+        "displayedObservations" : "2",
+        "environment" : "",
+        "expression" : "dummynho",
+        "object" : "dummynho",
+        "preview" : "0",
+        "totalObservations" : "2",
+        "variables" : "291"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 9,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

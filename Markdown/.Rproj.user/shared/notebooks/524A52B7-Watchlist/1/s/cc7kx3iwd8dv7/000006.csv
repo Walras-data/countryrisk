@@ -1,0 +1,6 @@
+"0",""
+"0",""
+"0","basona <- merge(base,coucodes, by.x = 'ISO2 Code', by.y = 'ISO2.Code', all.x = TRUE)"
+"0","basona <- mutate(basona, Region  = `Region..IMF.` )"
+"0","basona <- mutate(basona, Country_Name  = `IMF.Name` )"
+"0","basona <- mutate(basona, Crisis  = dummy )"

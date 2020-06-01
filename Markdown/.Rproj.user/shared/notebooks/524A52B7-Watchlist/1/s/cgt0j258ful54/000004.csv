@@ -1,0 +1,46 @@
+"0",""
+"0",""
+"0",""
+"0",""
+"0","#6months"
+"0",""
+"0",""
+"0","stack = read_csv(""05-05-2020_stackedmodel.csv"")"
+"2","Missing column names filled in: 'X1' [1]"
+"2","Parsed with column specification:
+cols(
+  .default = col_double(),
+  year = [34mcol_date(format = """")[39m,
+  `ISO2 Code` = [31mcol_character()[39m,
+  `Forecast date` = [34mcol_datetime(format = """")[39m
+)
+"
+"2","See spec(...) for full column specifications.
+"
+"0","stack_last = subset(stack, stack$year == max(stack$year))"
+"0","stack_3 = subset(stack, stack$year == as.Date(as.yearmon(as.Date(stack_last$year)) - .5,  frac = 0))"
+"0","stack = as.data.frame(cbind(country = stack_last$`ISO2 Code`, pred = stack_last$pred, pred3 = stack_3$pred))"
+"0","stack$pred = as.numeric(as.character(stack$pred))"
+"0","stack$pred3 = as.numeric(as.character(stack$pred3))"
+"0","stack$growth = ifelse((stack$pred - stack$pred3) > 0, ""Growth"", ""Decline"")"
+"0",""
+"0","p <- ggplot(stack,"
+"0","            aes(x = pred3,"
+"0","                xend = pred,"
+"0","                y = reorder(country, pred),"
+"0","                yend = reorder(country, pred),"
+"0","                color = growth))"
+"0",""
+"0",""
+"0","p + geom_segment(size = 0.7,"
+"0","                 arrow = arrow(type = ""closed"", angle = 35,"
+"0","                               length = unit(0.01, ""npc""))) +"
+"0","  scale_color_manual(labels = c(""Decline"", ""Growth""),"
+"0","                     values = my_colors()) +"
+"0","  labs(title = ""Change between the probability of a currency crisis in the last 6 months"","
+"0","       x = ""Probability of a currency crisis"","
+"0","       y = NULL,"
+"0","       color = ""Direction of Change"") +"
+"0","  theme_minimal() +"
+"0","  theme(legend.position = ""bottom"") +"
+"0","  xlim(0,1)"

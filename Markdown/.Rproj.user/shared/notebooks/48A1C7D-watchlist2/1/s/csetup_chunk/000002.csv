@@ -1,0 +1,22 @@
+"0","library(readr)"
+"0","library(dplyr)"
+"0","library(ggplot2)"
+"0","library(ggcorrplot)"
+"0","library(lubridate)"
+"0","library(plotly)"
+"0","library(sparkline)"
+"0","library(DT)"
+"0","base <- read_csv(""maynovix.csv"")"
+"2","Missing column names filled in: 'X1' [1]"
+"2","Parsed with column specification:
+cols(
+  .default = col_double(),
+  year = [34mcol_date(format = """")[39m,
+  `ISO2 Code` = [31mcol_character()[39m,
+  `Forecast date` = [34mcol_datetime(format = """")[39m
+)
+"
+"2","See spec(...) for full column specifications.
+"
+"0","coucodes <- read.csv(""~/GitHub/countryrisk/Markdown/coucodes.csv"", sep="";"")"
+"0",""

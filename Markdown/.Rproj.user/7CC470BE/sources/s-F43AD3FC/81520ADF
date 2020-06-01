@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1590862370765.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "81520ADF",
+    "lastKnownWriteTime" : 1590862174,
+    "last_content_update" : 1590862370765,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "8681A66E",
+        "caption" : "dummyanos",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=dummyanos&cache_key=8681A66E",
+        "displayedObservations" : 215,
+        "environment" : "",
+        "expression" : "dummyanos",
+        "object" : "dummyanos",
+        "preview" : 0,
+        "totalObservations" : 215,
+        "variables" : 1
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

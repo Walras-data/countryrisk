@@ -1,0 +1,7 @@
+"0",""
+"0","### Creating df "
+"0",""
+"0","watchlist <- base %>%"
+"0","  mutate (ano = substr(as.character(year),1,4)) %>%"
+"0","  filter(ano == '2020')"
+"0",""

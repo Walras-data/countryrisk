@@ -1,0 +1,111 @@
+"0",""
+"0","library(tidyverse)"
+"2","package ‘tidyverse’ was built under R version 3.6.3"
+"2","Registered S3 methods overwritten by 'dbplyr':
+  method         from
+  print.tbl_lazy     
+  print.tbl_sql      
+"
+"2","[37m-- [1mAttaching packages[22m --------------------------------------- tidyverse 1.3.0 --[39m
+"
+"2","[37m[32m<U+2713>[37m [34mtibble [37m 2.1.3     [32m<U+2713>[37m [34mstringr[37m 1.4.0
+[32m<U+2713>[37m [34mtidyr  [37m 1.0.0     [32m<U+2713>[37m [34mforcats[37m 0.4.0
+[32m<U+2713>[37m [34mpurrr  [37m 0.3.3     [39m
+"
+"2","package ‘stringr’ was built under R version 3.6.3"
+"2","[37m-- [1mConflicts[22m ------------------------------------------ tidyverse_conflicts() --
+[31mx[37m [34mlubridate[37m::[32mas.difftime()[37m masks [34mbase[37m::as.difftime()
+[31mx[37m [34mlubridate[37m::[32mdate()[37m        masks [34mbase[37m::date()
+[31mx[37m [34mplotly[37m::[32mfilter()[37m         masks [34mdplyr[37m::filter(), [34mstats[37m::filter()
+[31mx[37m [34mlubridate[37m::[32mintersect()[37m   masks [34mbase[37m::intersect()
+[31mx[37m [34mdplyr[37m::[32mlag()[37m             masks [34mstats[37m::lag()
+[31mx[37m [34mlubridate[37m::[32msetdiff()[37m     masks [34mbase[37m::setdiff()
+[31mx[37m [34mlubridate[37m::[32munion()[37m       masks [34mbase[37m::union()[39m
+"
+"0","library(ggalt)"
+"2","package ‘ggalt’ was built under R version 3.6.3"
+"2","Registered S3 methods overwritten by 'ggalt':
+  method                  from   
+  grid.draw.absoluteGrob  ggplot2
+  grobHeight.absoluteGrob ggplot2
+  grobWidth.absoluteGrob  ggplot2
+  grobX.absoluteGrob      ggplot2
+  grobY.absoluteGrob      ggplot2
+"
+"0","library(janitor)"
+"2","package ‘janitor’ was built under R version 3.6.3"
+"2","
+Attaching package: ‘janitor’
+
+"
+"2","The following objects are masked from ‘package:stats’:
+
+    chisq.test, fisher.test
+
+"
+"0","library(stringr)"
+"0","library(zoo)"
+"2","package ‘zoo’ was built under R version 3.6.3"
+"2","
+Attaching package: ‘zoo’
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+"
+"0","my_colors <- function(palette = ""cb"") {"
+"0","  cb.palette <- c(""#000000"", ""#E69F00"", ""#56B4E9"", ""#009E73"","
+"0","                  ""#F0E442"", ""#0072B2"", ""#D55E00"", ""#CC79A7"")"
+"0","  rcb.palette <- rev(cb.palette)"
+"0","  bly.palette <- c(""#E69F00"", ""#0072B2"", ""#000000"", ""#56B4E9"","
+"0","                   ""#009E73"", ""#F0E442"", ""#D55E00"", ""#CC79A7"")"
+"0","  if (palette == ""cb"")"
+"0","    return(cb.palette)"
+"0","  else if (palette == ""rcb"")"
+"0","    return(rcb.palette)"
+"0","  else if (palette == ""bly"")"
+"0","    return(bly.palette)"
+"0","  else stop(""Choose cb, rcb, or bly ony."")"
+"0","}"
+"0",""
+"0","stack = read_csv(""05-05-2020_stackedmodel.csv"")"
+"2","Missing column names filled in: 'X1' [1]"
+"2","Parsed with column specification:
+cols(
+  .default = col_double(),
+  year = [34mcol_date(format = """")[39m,
+  `ISO2 Code` = [31mcol_character()[39m,
+  `Forecast date` = [34mcol_datetime(format = """")[39m
+)
+"
+"2","See spec(...) for full column specifications.
+"
+"0","stack_last = subset(stack, stack$year == max(stack$year))"
+"0","stack_3 = subset(stack, stack$year == as.Date(as.yearmon(as.Date(stack_last$year)) - .04,  frac = 0))"
+"0","stack = as.data.frame(cbind(country = stack_last$`ISO2 Code`, pred = stack_last$pred, pred3 = stack_3$pred))"
+"0","stack$pred = as.numeric(as.character(stack$pred))"
+"0","stack$pred3 = as.numeric(as.character(stack$pred3))"
+"0","stack$growth = ifelse((stack$pred - stack$pred3) > 0, ""Growth"", ""Decline"")"
+"0",""
+"0","p <- ggplot(stack,"
+"0","            aes(x = pred3,"
+"0","                xend = pred,"
+"0","                y = reorder(country, pred),"
+"0","                yend = reorder(country, pred),"
+"0","                color = growth))"
+"0",""
+"0",""
+"0","p + geom_segment(size = 0.7,"
+"0","                 arrow = arrow(type = ""closed"", angle = 35,"
+"0","                               length = unit(0.01, ""npc""))) +"
+"0","  scale_color_manual(labels = c(""Decline"", ""Growth""),"
+"0","                     values = my_colors()) +"
+"0","  labs(title = ""Change between the probability of a currency crisis from March to April"","
+"0","       x = ""Probability of a currency crisis"","
+"0","       y = NULL,"
+"0","       color = ""Direction of Change"") +"
+"0","  theme_minimal() +"
+"0","  theme(legend.position = ""bottom"")+"
+"0","  xlim(0,1)"
