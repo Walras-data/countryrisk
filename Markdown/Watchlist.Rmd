@@ -477,10 +477,18 @@ fim <- testebr$year[testebr$dummynho == -1]
 docinho <- (length(inicio)>0)
   
 grafico <- ggplot() +
-  geom_line(testebr, mapping = aes(x = year,y = pred)) +
-  {if(docinho)geom_vline(mapping = aes(xintercept = dummyanos))} +
-  {if(docinho)geom_rect(mapping = aes(xmin = inicio, xmax = fim, ymin = 0, ymax = 1.0),
-            alpha = 0.2)}
+  geom_line(testebr, mapping = aes(x = year,y = pred), color = "#09557f", size = 1.25) +
+  {if(docinho)geom_vline(mapping = aes(xintercept = dummyanos), color = "lightblue")} +
+  {if(docinho)geom_rect(mapping = aes(xmin = inicio, xmax = fim, ymin = -Inf, ymax = Inf),
+            alpha = 0.2)} +
+  ggtitle(x) + 
+  theme_minimal() + 
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) + 
+  ylim(0,1) +
+  ylab("Currency Crisis Probability")
+
+  
+
 print(grafico)  
 
 
