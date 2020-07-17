@@ -21,11 +21,92 @@ library(lubridate)
 library(plotly)
 library(DT)
 library(sparkline)
+library(showtext)
+library(reshape2)
+library(anytime)
 
-base <- read_csv("05-05-2020_stackedmodel.csv")
-coucodes <- read.csv("~/GitHub/countryrisk/Markdown/coucodes.csv", sep=";")
+
+
+base <- read_csv("forecastwithvix_07-06-20.csv")
+base_no_vix <- read_csv("forecastwithoutvix_07-06-20.csv")
+coucodes <- read.csv("coucodes.csv", sep=";")
 
 ```
+
+
+````{r}
+
+
+base$year = ydm(anydate(base$year))
+base_no_vix$year = ydm(anydate(base_no_vix$year))
+
+````
+
+
+````{r}
+
+test <- base %>%
+  group_by(`ISO2 Code`) %>%
+  mutate(jujubinha = lead(ENDE_XDC_USD_RATE, n=12),
+         perebinha = (jujubinha - ENDE_XDC_USD_RATE)/(ENDE_XDC_USD_RATE)*100) %>%
+  filter(year > "2015-01-01")
+
+datalist = list()
+
+
+for (i in  seq(20,100,5)){
+
+  
+res <- test %>%
+  mutate(threshold_d  = case_when(pred*100 >= i ~ 1,
+                         pred*100 < i ~ 0)) %>%
+  group_by(threshold_d ) %>%
+  summarise(Currency_change = median(perebinha, na.rm = TRUE))
+
+res$threshold <- i
+
+datalist[[i]] <- res
+
+}
+
+df <- do.call("rbind",datalist) #combine all vectors into a matrix
+
+
+trumpinho <- dcast(df, threshold ~threshold_d, value.var = "Currency_change")
+
+````
+
+
+
+````{r}
+
+
+for (i in  seq(20,100,5)){
+
+  
+res <- test %>%
+  mutate(threshold_d  = case_when(pred*100 >= i ~ 1,
+                         pred*100 < i ~ 0)) %>%
+  group_by(precrisis, threshold_d ) %>%
+  count()
+
+res$threshold <- i
+
+datalist[[i]] <- res
+
+}
+
+df2 <- do.call("rbind",datalist) #combine all vectors into a matrix
+#df2$n = df2$n*100/2688
+#df2 = dcast(df2, n ~ precrisis + threshold_d ~ threshold)
+
+df2 <- mutate(df2, novinho = n/2688*100)
+df2 = dcast(df2, threshold ~ precrisis + threshold_d, value.var = "novinho")
+ 
+
+````
+
+
 
 
 ````{r} 
@@ -44,12 +125,13 @@ tabelinha <- teste %>%
 tabela <- left_join(teste, tabelinha)
 
 tabelona <- tabela %>%
-  subset(year > "2020-03-01") %>%
+  subset(year == "2020-06-01") %>%
   mutate(crisis_probability = round(pred,2)) %>%
   select(year,`ISO2 Code`, crisis_probability, trend)
 
 
 ````
+
 
 ````{r}
 
@@ -110,11 +192,11 @@ my_colors <- function(palette = "cb") {
   else stop("Choose cb, rcb, or bly ony.")
 }
 
-stack = read_csv("05-05-2020_stackedmodel.csv")
+stack = base
 
 
 stack_last = subset(stack, stack$year == max(stack$year))
-stack_3 = subset(stack, stack$year == as.Date(as.yearmon(as.Date(stack_last$year)) - .04,  frac = 0))
+stack_3 = subset(stack, stack$year ==stack_last$year + months(-1))
 stack = as.data.frame(cbind(country = stack_last$`ISO2 Code`, pred = stack_last$pred, pred3 = stack_3$pred))
 stack$pred = as.numeric(as.character(stack$pred))
 stack$pred3 = as.numeric(as.character(stack$pred3))
@@ -147,11 +229,11 @@ p + geom_segment(size = 0.7,
 #6months
 
 
-stack = read_csv("05-05-2020_stackedmodel.csv")
+stack = base
 
 
 stack_last = subset(stack, stack$year == max(stack$year))
-stack_3 = subset(stack, stack$year == as.Date(as.yearmon(as.Date(stack_last$year)) - .5,  frac = 0))
+stack_3 = subset(stack, stack$year == stack_last$year + months(-6))
 stack = as.data.frame(cbind(country = stack_last$`ISO2 Code`, pred = stack_last$pred, pred3 = stack_3$pred))
 stack$pred = as.numeric(as.character(stack$pred))
 stack$pred3 = as.numeric(as.character(stack$pred3))
@@ -183,11 +265,11 @@ p + geom_segment(size = 0.7,
 #year
 
 
-stack = read_csv("05-05-2020_stackedmodel.csv")
+stack = base
 
 
 stack_last = subset(stack, stack$year == max(stack$year))
-stack_3 = subset(stack, stack$year == as.Date(as.yearmon(as.Date(stack_last$year)) - 1,  frac = 0))
+stack_3 = subset(stack, stack$year == stack_last$year + months(-12))
 stack = as.data.frame(cbind(country = stack_last$`ISO2 Code`, pred = stack_last$pred, pred3 = stack_3$pred))
 stack$pred = as.numeric(as.character(stack$pred))
 stack$pred3 = as.numeric(as.character(stack$pred3))
@@ -230,7 +312,22 @@ base1 <- base %>%
   summarise(meanpred = mean(pred))
 base <- left_join(base,base1)
 
+base2 <- base_no_vix %>% 
+  group_by(year) %>%
+  summarise(meanpred = mean(pred))
+base_no_vix <- left_join(base_no_vix,base2)
+
+
+
  ggplot(data = base, aes(x = year)) + 
+    geom_line(aes(y=meanpred), 
+            color = "#09557f",
+            alpha = 0.6,
+            size = 0.6) + 
+   theme_minimal()
+ 
+ 
+ ggplot(data = base_no_vix, aes(x = year)) + 
     geom_line(aes(y=meanpred), 
             color = "#09557f",
             alpha = 0.6,
@@ -239,6 +336,8 @@ base <- left_join(base,base1)
 
 
 ````
+
+
 
 # Number of Currency Crisis
 
@@ -313,7 +412,7 @@ ggplotly(plot) %>%
 
 
 
-````{r, echo = FALSE}
+````{r, echo = FALSE, eval = FALSE}
 
 ### Heatmap currency crisis by month
 
@@ -368,7 +467,7 @@ ggplotly(timeheat)
 
 ````
 
-````{r, echo = FALSE}
+````{r, echo = FALSE, eval = FALSE}
 
 ### Heatmap currency crisis by month
 
@@ -424,6 +523,26 @@ ggplot(stacked, aes(ano, mes, fill = x)) +
 
 
 # Additional Analysis
+
+````{r}
+base_quantilzinho <- base %>%
+  group_by(`ISO2 Code`) %>%
+  mutate(jujubinha = lead(ENDE_XDC_USD_RATE, n=12),
+         perebinha = (jujubinha - ENDE_XDC_USD_RATE)/(ENDE_XDC_USD_RATE)*100) %>%
+  filter(year > "2015-01-01") %>%
+  ungroup() %>%
+  mutate(quantilzao = cut(pred, seq(0,1,0.05))) %>%
+  group_by(quantilzao) %>%
+  summarise(Currency_change = median(perebinha, na.rm = TRUE))
+
+
+ggplot(base_quantilzinho, aes(x = quantilzao, y = Currency_change)) +
+  geom_point(color = "steelblue") + 
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))  
+
+````
+
 
 
 ````{r, echo = FALSE}
@@ -485,7 +604,8 @@ grafico <- ggplot() +
   theme_minimal() + 
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) + 
   ylim(0,1) +
-  ylab("Currency Crisis Probability")
+  ylab("Currency Crisis Probability") +
+  theme(text = element_text(family = "Roboto"))
 
   
 

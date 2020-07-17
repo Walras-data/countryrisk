@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1593476606066.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "3D711252",
+    "lastKnownWriteTime" : 1456693052952,
+    "last_content_update" : 1593476606066,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "51C2EB94",
+        "caption" : "trumpinho",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=trumpinho&cache_key=51C2EB94",
+        "displayedObservations" : "17",
+        "environment" : "",
+        "expression" : "trumpinho",
+        "object" : "trumpinho",
+        "preview" : "0",
+        "totalObservations" : "17",
+        "variables" : "3"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
